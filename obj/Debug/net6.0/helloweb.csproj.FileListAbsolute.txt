@@ -1,0 +1,17 @@
+/Users/kenshukubo/repos/helloweb/obj/Debug/net6.0/helloweb.csproj.AssemblyReference.cache
+/Users/kenshukubo/repos/helloweb/obj/Debug/net6.0/helloweb.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kenshukubo/repos/helloweb/obj/Debug/net6.0/helloweb.AssemblyInfoInputs.cache
+/Users/kenshukubo/repos/helloweb/obj/Debug/net6.0/helloweb.AssemblyInfo.cs
+/Users/kenshukubo/repos/helloweb/obj/Debug/net6.0/helloweb.csproj.CoreCompileInputs.cache
+/Users/kenshukubo/repos/helloweb/obj/Debug/net6.0/helloweb.MvcApplicationPartsAssemblyInfo.cache
+/Users/kenshukubo/repos/helloweb/bin/Debug/net6.0/appsettings.Development.json
+/Users/kenshukubo/repos/helloweb/bin/Debug/net6.0/appsettings.json
+/Users/kenshukubo/repos/helloweb/bin/Debug/net6.0/helloweb.deps.json
+/Users/kenshukubo/repos/helloweb/bin/Debug/net6.0/helloweb.runtimeconfig.json
+/Users/kenshukubo/repos/helloweb/bin/Debug/net6.0/helloweb.dll
+/Users/kenshukubo/repos/helloweb/bin/Debug/net6.0/ref/helloweb.dll
+/Users/kenshukubo/repos/helloweb/bin/Debug/net6.0/helloweb.pdb
+/Users/kenshukubo/repos/helloweb/obj/Debug/net6.0/helloweb.dll
+/Users/kenshukubo/repos/helloweb/obj/Debug/net6.0/ref/helloweb.dll
+/Users/kenshukubo/repos/helloweb/obj/Debug/net6.0/helloweb.pdb
+/Users/kenshukubo/repos/helloweb/obj/Debug/net6.0/helloweb.genruntimeconfig.cache

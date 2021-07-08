@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "o4yY1kZwjwxXDGFhiIJIkzWNJ7A9HUKAvY35OjOrf1P/s8HAEQ/0wo28CelW3I8E3My4eSGIKYQgq8Slxkaubw==",
+  "success": true,
+  "projectFilePath": "/Users/kenshukubo/repos/helloweb/helloweb.csproj",
+  "expectedPackageFiles": [
+    "/Users/kenshukubo/.nuget/packages/microsoft.aspnetcore.razor.design/2.2.0/microsoft.aspnetcore.razor.design.2.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
