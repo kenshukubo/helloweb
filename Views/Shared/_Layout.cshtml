@@ -11,5 +11,15 @@
         <div class="content">
             @RenderBody()
         </div>
+
+        <div class="footer">
+            <hr/>
+
+            @if(IsSectionDefined("footer")){
+                RenderSection("footer");
+            }else{
+                <p>Layout Footer</p>
+            }
+        </div>
     </body>
 </html>
