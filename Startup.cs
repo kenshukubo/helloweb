@@ -33,6 +33,7 @@ namespace helloweb
                     defaults : new { controller = "Home", action = "Index" }
                 );
 
+                // tutorial/welcome/dongsu/18
                 routes.MapRoute (
                     name: "TutorialPathValueRoute",
                     template: "{controller}/{action}/{name}/{age}"
