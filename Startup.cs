@@ -37,6 +37,12 @@ namespace helloweb
                     name: "TutorialPathValueRoute",
                     template: "{controller}/{action}/{name}/{age}"
                 );
+
+                routes.MapRoute (
+                    name: "ActionResultTest",
+                    template: "art/{action}",
+                    defaults : new { controller = "ActionResultTest" }
+                );
             });
         }
     }
