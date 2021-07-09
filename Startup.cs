@@ -45,6 +45,12 @@ namespace helloweb
                     template: "art/{action}",
                     defaults : new { controller = "ActionResultTest" }
                 );
+
+                routes.MapRoute (
+                    name: "ParamsMappingTest",
+                    template: "pmt/{action}/{id?}",
+                    defaults : new { controller = "ParamsMappingTest" }
+                );
             });
         }
     }
