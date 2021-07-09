@@ -32,6 +32,11 @@ namespace helloweb
                     template: "{controller}/{action}",
                     defaults : new { controller = "Home", action = "Index" }
                 );
+
+                routes.MapRoute (
+                    name: "TutorialPathValueRoute",
+                    template: "{controller}/{action}/{name}/{age}"
+                );
             });
         }
     }
