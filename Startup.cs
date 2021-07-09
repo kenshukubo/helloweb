@@ -39,6 +39,7 @@ namespace helloweb
                     template: "{controller}/{action}/{name}/{age}"
                 );
 
+                // 一項目のpath名は自由に指定して、defaultsでcontrollerを定義
                 routes.MapRoute (
                     name: "ActionResultTest",
                     template: "art/{action}",
