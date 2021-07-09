@@ -1,5 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
+// Model使う際に必要なおまじない
+using helloweb.Models;
 
 namespace helloweb.Controllers {
     public class ParamsMappingTestcontroller : Controller {
@@ -14,6 +16,10 @@ namespace helloweb.Controllers {
             }
 
             return Content (message);
+        }
+
+        public IActionResult GetPerson (Person person) {
+            return Json (new { message = "Action params mapping", data = person });
         }
     }
 }
