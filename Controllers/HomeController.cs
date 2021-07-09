@@ -9,7 +9,7 @@ namespace helloweb.Controllers {
 
         // 3. Action Methodの定義
         public IActionResult Index () {
-            return Content ("Hello World!");
+            return View("Views/Home/Index.cshtml");
         }
     }
 }
