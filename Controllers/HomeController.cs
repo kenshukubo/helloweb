@@ -9,7 +9,9 @@ namespace helloweb.Controllers {
 
         // 3. Action Methodの定義
         public IActionResult Index () {
-            return View("Views/Home/Index.cshtml");
+            ViewBag.Title = "Home";
+            ViewBag.Message = "Hello world ! - dongsu";
+            return View();
         }
     }
 }
