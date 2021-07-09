@@ -11,5 +11,13 @@ namespace ds.Tutorial.web.Controllers {
             ViewData["hobby"] = new string[] { "筋トレ", "映画鑑賞", "Coding" };
             return View ();
         }
+
+        public IActionResult ViewBagDemo () {
+            ViewBag.title = "ViewBag Demo";
+            ViewBag.name = "dongsu";
+            ViewBag.birthday = new DateTime (2000, 3, 10);
+            ViewBag.hobby = new string[] { "筋トレ", "映画鑑賞", "Coding" };
+            return View ();
+        }
     }
 }
