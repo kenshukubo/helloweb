@@ -2,7 +2,7 @@ using System;
 using helloweb.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ds.Tutorial.web.Controllers {
+namespace helloweb.Controllers {
     public class RenderDataController : Controller {
         public IActionResult ViewDataDemo () {
             ViewData["title"] = "ViewData Demo";
