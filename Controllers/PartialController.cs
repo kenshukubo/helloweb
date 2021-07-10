@@ -6,5 +6,9 @@ namespace ds.Tutorial.web.Controllers {
         public IActionResult Demo () {
             return View ();
         }
+
+        public IActionResult DemoWithParams () {
+            return View ();
+        }
     }
 }

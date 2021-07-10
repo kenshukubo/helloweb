@@ -1,0 +1,14 @@
+@using helloweb.Models;
+
+@{
+    ViewBag.Title = "PartialView With Params Demo";
+}
+
+<h3>@ViewBag.Title</h3>
+<p>PartialView With Params Demo by dongsu.dev</p>
+
+@await Html.PartialAsync("_NoteInfo",new NoteViewModel(){
+    Title = "部分ビュー",
+    PublishTime = DateTime.Now,
+    Boby = "部分ビューのコンテンツ"
+})
