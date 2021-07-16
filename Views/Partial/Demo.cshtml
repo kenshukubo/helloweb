@@ -1,0 +1,12 @@
+@{
+    ViewBag.Title = "PartialView Demo";
+}
+
+<h3>@ViewBag.Title</h3>
+<p>PartialView Demo By dongsu.dev</p>
+
+@Html.Partial("_DateTimeInfo")
+
+<hr/>
+
+@await Html.PartialAsync("_DateTimeInfo")
