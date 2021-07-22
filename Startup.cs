@@ -1,4 +1,6 @@
 // using helloweb.Common;
+using System.Collections.Generic;
+using System.Linq;
 using helloweb.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -7,6 +9,7 @@ using Microsoft.AspNetCore.Routing.Constraints;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using helloweb.Models.Interface;
 
 namespace helloweb
 {
@@ -30,6 +33,9 @@ namespace helloweb
 
             // リポジトリ
             services.AddTransient<TutorialRepository> ();
+
+            // インターフェース
+            services.AddTransient<IGreeting, GoodMorning> ();
 
             // リポジトリ
             // services.AddTransient<TutorialWithSqlRepository> ();
